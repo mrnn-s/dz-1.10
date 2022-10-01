@@ -1,5 +1,9 @@
 ﻿Console.WriteLine("Введите число от 1-7 ");
 int numberA = int.Parse(Console.ReadLine());
+if(numberA>7)
+{
+    Console.WriteLine("Wrong"); 
+}
 if(numberA==1)
 {
     Console.WriteLine("понедельник"); 

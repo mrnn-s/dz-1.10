@@ -1,0 +1,12 @@
+﻿Console.WriteLine("Введите число 1");
+int m1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите число 2");
+int m2 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите число 3");
+int m3 = int.Parse(Console.ReadLine());
+int max=m1;
+if (m1 > m2) max=m1;
+if (m2 >max) max=m2;
+if (m3 > max) max=m3;
+Console.WriteLine("max number");
+Console.WriteLine(max);
